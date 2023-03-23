@@ -1,7 +1,8 @@
 {
-  "name": "desafio-01-yt",
+  "name": "desafio-ignite-todolist",
   "private": true,
   "version": "0.0.0",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
