@@ -2,7 +2,6 @@
   "name": "desafio-ignite-todolist",
   "private": true,
   "version": "0.0.0",
-  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
