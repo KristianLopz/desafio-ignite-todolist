@@ -176,14 +176,51 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 370px) {
     .newTaskForm {
-        padding: 0;
+        padding: 0 ;
+    }
+
+    .newTaskForm input {
+        flex: 0;
+        width: 15rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .newTaskForm {
+        padding: 0 1rem;
     }
 
     .newTaskForm input {
         flex: 0;
         width: 12rem;
         font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 340px) {
+    .newTaskForm {
+        padding: 0 0.5rem;
+    }
+
+    .newTaskForm input {
+        flex: 0;
+        width: 12rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .newTaskForm {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .newTaskForm input {
+        width: 10rem;
     }
 }
