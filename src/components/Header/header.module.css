@@ -203,7 +203,7 @@
 
 @media screen and (max-width: 340px) {
     .newTaskForm {
-        padding: 0 0.5rem;
+        padding: 0;
     }
 
     .newTaskForm input {
