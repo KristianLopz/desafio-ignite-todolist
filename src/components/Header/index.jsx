@@ -7,15 +7,21 @@ import { useState } from "react";
 export function Header({ onAddTask }) {
     const [title, setTitle] = useState("");
 
+
+    function primeiraLetraMaiuscula(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+
     function handleSubmit(event) {
         event.preventDefault();
+        const newTitle = primeiraLetraMaiuscula(title)
 
-        onAddTask(title)
+        onAddTask(newTitle)
         setTitle("")
     }
 
     function onChangeTitle(event) {
-
+        
         setTitle(event.target.value);
     }
 
