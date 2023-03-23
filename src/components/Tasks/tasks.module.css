@@ -64,4 +64,25 @@
     .tasks {
         padding: 0 2rem;
     }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+    
+    .header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .header div {
+        gap: 0.5rem;
+    }
+    .tasks {
+        padding: 0 2rem;
+    }
+
+    
+
 }

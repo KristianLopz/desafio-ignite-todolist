@@ -62,6 +62,7 @@ function App() {
         onDelete={deleteTaskById}
         tasks={tasks}
       />
+      <footer />
     </>
   )
 }
